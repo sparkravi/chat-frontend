@@ -9,10 +9,11 @@ import history from './Utilities/history';
 import PrivateRoute from './Utilities/private-route';
 import Home from './Home/Home';
 import Chat from './Chat/Chat';
+import './App.css'
 
 const theme = createMuiTheme({
     palette: {
-        primary: {
+            primary: {
             light: '#58a5f0',
             main: '#0277bd',
             dark: '#004c8c',
@@ -24,7 +25,7 @@ const theme = createMuiTheme({
             contrastText: '#212121',
         },
         background: {
-            default: '#f0f0f0',
+            default: 'black',
         },
     },
     typography: {

@@ -11,7 +11,7 @@ import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 
 import { authenticationService } from '../Services/authenticationService';
 import history from '../Utilities/history';
-import logo from './logo.png';
+import logo1 from './logo1.png';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -20,8 +20,6 @@ const useStyles = makeStyles(theme => ({
     title: {
         flexGrow: 1,
         display: 'flex',
-    },
-    userDropdown: {
         marginLeft: theme.spacing(2),
         padding: theme.spacing(1),
         [theme.breakpoints.down('xs')]: {
@@ -64,7 +62,7 @@ const Header = () => {
             <AppBar position="static">
                 <Toolbar>
                     <Link href="/" className={classes.title}>
-                        <img src={logo} alt="Logo" />
+                        <img class="logo1" width="9%" src={logo1} alt="Logo1" />
                     </Link>
                     <Button
                         aria-owns={anchorEl ? 'simple-menu' : undefined}

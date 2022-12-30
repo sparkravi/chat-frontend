@@ -2,10 +2,14 @@
 
 body {
     margin: 0;
-    background-image: url("https://cdn.wallpapersafari.com/94/3/Y7V4l0.jpg");
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/836/532/876/spots-background-light-solid-wallpaper-thumb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+.logo1{
+    border-radius: 25px;
+    border-color: red ;
 }
 
      
