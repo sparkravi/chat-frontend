@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 
 body {
     margin: 0;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/836/532/876/spots-background-light-solid-wallpaper-thumb.jpg");
+    background-image: url("https://media.istockphoto.com/id/1090871038/photo/hand-of-woman-typing-text-on-mobile-smartphone-online-live-chat-chatting-on-application.jpg?s=612x612&w=0&k=20&c=uDfx4MKpYHTHrUhAi088juQgO4pfQfngbBLmV9oU--E=");
     background-repeat: no-repeat;
     background-size: cover;
     

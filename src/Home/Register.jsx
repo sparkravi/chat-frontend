@@ -33,13 +33,15 @@ const Register= props => {
     const classes = useStyles();
 
     return (
+        <section className="signup">
+            <div className='border'>
         <div className={classes.paper}>
             <Grid container>
                 <Grid item>
                     <Typography component="h1" variant="h5" align="center">
                         Register
                     </Typography>
-                    <Formik
+                    <Formik className="font"
                         initialValues={{
                             name: '',
                             username: '',
@@ -104,7 +106,6 @@ const Register= props => {
                                     name="name"
                                     label="Name"
                                     fullWidth={true}
-                                    variant="outlined"
                                     margin="normal"
                                     required={true}
                                     helperText={touched.name ? errors.name : ''}
@@ -119,7 +120,6 @@ const Register= props => {
                                     name="username"
                                     label="Username"
                                     fullWidth={true}
-                                    variant="outlined"
                                     margin="normal"
                                     required={true}
                                     helperText={
@@ -139,7 +139,6 @@ const Register= props => {
                                     name="password"
                                     label="Password"
                                     fullWidth={true}
-                                    variant="outlined"
                                     margin="normal"
                                     required={true}
                                     helperText={
@@ -160,7 +159,6 @@ const Register= props => {
                                     name="password2"
                                     label="Confirm Password"
                                     fullWidth={true}
-                                    variant="outlined"
                                     margin="normal"
                                     required={true}
                                     helperText={
@@ -202,6 +200,8 @@ const Register= props => {
                 </Grid>
             </Grid>
         </div>
+        </div>
+        </section>
     );
 };
 

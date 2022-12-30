@@ -32,10 +32,12 @@ const Login = props => {
     const classes = useStyles();
 
     return (
+        <section className="signup">
+            <div className='border'>
         <div className={classes.paper}>
             <Grid container>
                 <Grid item>
-                    <Typography component="h1" variant="h5" align="center">
+                    <Typography class="sign" component="h1" variant="h5" align="center">
                         Sign in
                     </Typography>
                     <Formik
@@ -88,7 +90,6 @@ const Login = props => {
                                     name="username"
                                     label="Username"
                                     fullWidth={true}
-                                    variant="outlined"
                                     margin="normal"
                                     required={true}
                                     helperText={
@@ -107,7 +108,6 @@ const Login = props => {
                                     name="password"
                                     label="Password"
                                     fullWidth={true}
-                                    variant="outlined"
                                     margin="normal"
                                     required={true}
                                     helperText={
@@ -121,7 +121,7 @@ const Login = props => {
                                     onChange={handleChange}
                                     type="password"
                                 />
-                                <Button
+                                <Button class="btn"
                                     type="submit"
                                     fullWidth={true}
                                     variant="contained"
@@ -136,7 +136,7 @@ const Login = props => {
                 </Grid>
                 <Grid item xs={9}>
                     <Typography>
-                        <Link
+                        <Link className="account"
                             onClick={() => props.handleClick('register')}
                             href="#"
                         >
@@ -146,6 +146,8 @@ const Login = props => {
                 </Grid>
             </Grid>
         </div>
+        </div>
+        </section>
     );
 };
 

@@ -1,3 +1,55 @@
 .App-main{
     background-color: red;
 }
+.sign{
+    color:burlywood;
+    margin-left: 30%;
+    margin-top: 0%;
+}
+#username{
+    font-style: italic;
+    background-color: none;
+    padding: 3%;
+    text-align: center;
+    border-bottom: 2px solid darkgray;
+    position: relative;
+
+}
+.btn{
+    border-radius: 25px;
+    font-size: 19px;
+    margin-left: 37%;
+    background-color:blue;
+    border: 1px solid white;
+    padding: 2% 6% 2% 6%;
+    color:white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#password{
+    padding: 3%;
+    text-align: center;
+    border-bottom: 2px solid darkgray;
+    position: relative;
+}
+.account{
+    margin-left:24% !important;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.border{
+ 
+  margin: 14% 10% 14% 10%;
+}
+.signup{
+    
+    margin-top: 14%;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: lightcyan;
+}
+.font{
+    font-style: 'times-newroman';
+
+}
